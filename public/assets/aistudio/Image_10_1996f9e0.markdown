@@ -1,0 +1,225 @@
+---
+name: Executive Precision
+colors:
+  surface: '#faf8ff'
+  surface-dim: '#d2d9f4'
+  surface-bright: '#faf8ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f2f3ff'
+  surface-container: '#eaedff'
+  surface-container-high: '#e2e7ff'
+  surface-container-highest: '#dae2fd'
+  on-surface: '#131b2e'
+  on-surface-variant: '#464555'
+  inverse-surface: '#283044'
+  inverse-on-surface: '#eef0ff'
+  outline: '#777587'
+  outline-variant: '#c7c4d8'
+  surface-tint: '#4d44e3'
+  primary: '#3525cd'
+  on-primary: '#ffffff'
+  primary-container: '#4f46e5'
+  on-primary-container: '#dad7ff'
+  inverse-primary: '#c3c0ff'
+  secondary: '#712ae2'
+  on-secondary: '#ffffff'
+  secondary-container: '#8a4cfc'
+  on-secondary-container: '#fffbff'
+  tertiary: '#004c76'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#00659a'
+  on-tertiary-container: '#bedfff'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#e2dfff'
+  primary-fixed-dim: '#c3c0ff'
+  on-primary-fixed: '#0f0069'
+  on-primary-fixed-variant: '#3323cc'
+  secondary-fixed: '#eaddff'
+  secondary-fixed-dim: '#d2bbff'
+  on-secondary-fixed: '#25005a'
+  on-secondary-fixed-variant: '#5a00c6'
+  tertiary-fixed: '#cce5ff'
+  tertiary-fixed-dim: '#93ccff'
+  on-tertiary-fixed: '#001d31'
+  on-tertiary-fixed-variant: '#004b73'
+  background: '#faf8ff'
+  on-background: '#131b2e'
+  surface-variant: '#dae2fd'
+typography:
+  display-lg:
+    fontFamily: Inter
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.025em
+  display-lg-mobile:
+    fontFamily: Inter
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Inter
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 30px
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 26px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: -0.005em
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+    letterSpacing: 0em
+  label-lg:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: -0.005em
+  label-md:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.01em
+  label-sm:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.02em
+  metric-number:
+    fontFamily: Inter
+    fontSize: 30px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.03em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 0.75rem
+  margin: 2rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+The design system embodies modern executive intelligence—a refined SaaS aesthetic tailored for high-volume recruitment teams, talent acquisition leaders, and enterprise HR orchestrators. It projects cognitive authority, precision, and technological sophistication while eliminating administrative friction.
+
+The style converges **Corporate / Modern** structure with **tactile micro-surfaces** and **ambient computational accents**. Clean spatial discipline anchors deep algorithmic power, avoiding both clinical sterility and frivolous novelty. The interface relies on luminous white-and-slate backdrops energized by directional gradients of indigo, violet, and sky blue to signal automated workflows, generative scoring, and live recruitment pipelines.
+
+## Colors
+The palette balances low-glare surface neutrals with electric cognitive accents:
+
+- **Primary Canvas & Layering**: Base canvas utilizes `#F8FAFC` (Slate 50), elevated structural containers use `#FFFFFF`, and inset or secondary tracks use `#F1F5F9` (Slate 100). Subtle structural borders rely consistently on `#E2E8F0` (Slate 200).
+- **Core Tonal Accents**: 
+  - Indigo (`#4F46E5` primary, `#6366F1` hover) handles primary interaction states, high-priority actions, and brand anchors.
+  - Violet (`#7C3AED`, `#8B5CF6`) denotes autonomous AI copilot processes, match scoring, and candidate synthesis.
+  - Sky Blue (`#0284C7`, `#38BDF8`) communicates active synchronization, real-time communication events, and data telemetry.
+- **Typography & Neutrals**:
+  - Headings & Primary Metric Values: `#0F172A` (Slate 900)
+  - Secondary Labels & Form Titles: `#334155` (Slate 700)
+  - Subdued Metadata & Placeholders: `#64748B` (Slate 500)
+- **Functional Semantics**:
+  - Success / Matched: `#059669` (Emerald 600) with `#ECFDF5` background
+  - Warning / Under Review: `#D97706` (Amber 600) with `#FFFBEB` background
+  - Danger / Rejected: `#E11D48` (Rose 600) with `#FFF1F2` background
+  - AI Synthetic Badge: `#7C3AED` with `#F5F3FF` background and `#DDD6FE` border
+
+## Typography
+Typographic clarity relies solely on Inter, deployed with deliberate optical tracking and weight differentiation. Strict vertical metrics prevent layout jitter in data-heavy views.
+
+- Numeric figures in tables, candidate match percentages, and salary bandwidths must utilize tabular figures (`font-variant-numeric: tabular-nums`) for crisp scanning alignment.
+- Display and headline sizes leverage subtle negative letter tracking (`-0.01em` to `-0.025em`) to impart an authoritative, tight aesthetic.
+- Uppercase metadata badges and table headers strictly employ `label-sm` with slight positive tracking (`0.02em`) to ensure instant legibility against neutral backgrounds.
+
+## Layout & Spacing
+The layout architecture utilizes an asymmetric desktop-first 12-column fluid grid, optimized for standard 1440px displays with an expansive 1600px max bounds:
+
+- **Desktop Framework**: Fixed 260px left application rail paired with a fluid-width work area. The core canvas distributes layout modules via 1.5rem (`24px`) column gutters and 2rem (`32px`) viewport margins.
+- **Density Distribution**: Data tables, candidate kanban boards, and pipeline tracks prioritize high visual density using `space-xs` (4px) and `space-sm` (8px) internal gaps, while global page wrappers maintain spacious `space-xl` (32px) margins to preserve operational focus.
+- **Breakpoints**:
+  - `Desktop Wide` (≥ 1440px): 12 columns, dual split panels (candidate list + AI dossier sidebar).
+  - `Desktop Standard` (1024px – 1439px): 12 columns, collapsible AI copilot panel.
+  - `Tablet` (768px – 1023px): 8 columns, gutter drops to 1rem, navigation shrinks to icon bar.
+  - `Mobile` (< 768px): 4 columns, single-column stacked view, bottom-sheet AI companion.
+
+## Elevation & Depth
+Depth is produced through ultra-subtle, chromatic shadows and razor-thin containment borders rather than heavy opacity blocks.
+
+- **Level 0 (Base Canvas)**: `#F8FAFC` flat surface.
+- **Level 1 (Card & Module Foundation)**: Background `#FFFFFF`, border `1px solid #E2E8F0`, shadow `0 1px 2px 0 rgba(15, 23, 42, 0.04)`.
+- **Level 2 (Interactive Cards / Active Table Rows)**: Background `#FFFFFF`, border `1px solid #CBD5E1`, shadow `0 4px 6px -1px rgba(79, 70, 229, 0.06), 0 2px 4px -2px rgba(15, 23, 42, 0.04)`. A gentle Indigo chromatic bleed gives elements an energized lift.
+- **Level 3 (Dropdown Menus & Popovers)**: `#FFFFFF`, border `1px solid #E2E8F0`, shadow `0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -4px rgba(15, 23, 42, 0.03)`.
+- **Level 4 (AI Copilot Drawer & Modal Views)**: Floating `#FFFFFF` shell, border `1px solid #E2E8F0`, shadow `0 20px 25px -5px rgba(15, 23, 42, 0.1), 0 8px 10px -6px rgba(124, 58, 237, 0.08)`.
+
+## Shapes
+Shapes express modern technical polish through geometric balance:
+
+- Primary dashboard cards, analytical summary panels, and modal shells utilize `16px` (`rounded-2xl` equivalent).
+- Action buttons, standard inputs, pill chips, and pipeline stages rely on `8px` (`rounded-lg`) to maintain crisp mechanical alignment.
+- Segmented tabs, contextual dropdown items, and inner list items use `6px` or `8px`.
+- Avatar badges and match scoring donuts remain circular (`rounded-full`), balancing the square-dominant data canvas.
+
+## Components
+
+### Buttons
+- **Primary Action**: Solid `#4F46E5` fill, `#FFFFFF` text, `8px` border radius, padding `8px 16px`. Active state transitions to `#4338CA`. Ambient shadow `0 1px 2px 0 rgba(79, 70, 229, 0.3)`.
+- **AI Copilot Button**: Gradient fill `linear-gradient(135deg, #4F46E5, #7C3AED)`, white text, subtle sparkle glyph on leading edge. Hover elevates with `0 4px 12px rgba(124, 58, 237, 0.25)`.
+- **Secondary / Ghost**: Outline `1px solid #E2E8F0`, background `#FFFFFF`, text `#334155`. Hover background `#F8FAFC` and border `#CBD5E1`.
+
+### Status Badges & Chips
+- Form factor: Height `24px`, padding `0 8px`, border radius `6px`, font `label-sm`.
+- **AI Match Score Chip**: `#F5F3FF` base, `#7C3AED` text, `1px solid #DDD6FE` border. Includes bold numerical percentage indicator (e.g., `98% Match`).
+- **Success (Placed / Shortlisted)**: `#ECFDF5` base, `#059669` text, `1px solid #A7F3D0`.
+- **In Review**: `#FFFBEB` base, `#D97706` text, `1px solid #FDE68A`.
+
+### Input Fields & Controls
+- Height `40px`, background `#FFFFFF`, border `1px solid #E2E8F0`, text `#0F172A`, placeholder `#94A3B8`.
+- Focus state: Border transitions to `#4F46E5` with `0 0 0 3px rgba(99, 102, 241, 0.15)` focus ring.
+- Checkboxes & Radios: 18px diameter/box, border `#CBD5E1`, selected background `#4F46E5` with crisp white check mark icon.
+
+### Cards & Analytical Widgets
+- Container: Background `#FFFFFF`, border `1px solid #E2E8F0`, radius `16px`, padding `20px`.
+- Metric Widgets: Prominent `metric-number` Slate 900 typography, small uppercase Slate 500 title, trend indicators with micro-sparkline integrations and delta percentages.
+
+### Interactive Recruitment Kanban & Candidate Lists
+- Candidate Pipeline Cards: Padding `12px 14px`, radius `12px`, background `#FFFFFF`, border `#E2E8F0`. Dragging state elevates to Level 3 with a rotated tilt of 1deg.
+- Includes candidate avatar, title, experience pill, salary tag, and violet AI readiness score.

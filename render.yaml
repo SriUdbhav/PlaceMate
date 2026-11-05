@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: placemate-ai-backend
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: FRONTEND_URL
+        sync: false
+      - key: SMTP_USER
+        sync: false
+      - key: SMTP_PASS
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: HEYGEN_API_KEY
+        sync: false
+      - key: HEYGEN_AVATAR_ID
+        sync: false
+      - key: HEYGEN_VOICE_ID
+        sync: false
+

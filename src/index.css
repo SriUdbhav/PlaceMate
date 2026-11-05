@@ -1,0 +1,189 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+@custom-variant cappuccino (&:where(.cappuccino, .cappuccino *));
+
+:root {
+  --bg-app: #faf8ff;
+  --bg-card: #ffffff;
+  --bg-subtle: #f1f5f9;
+  --border-subtle: #e2e8f0;
+  --text-main: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --accent-brand: #4f46e5;
+  --accent-brand-hover: #4338ca;
+  --accent-brand-light: #eef2ff;
+  --accent-brand-text: #4338ca;
+}
+
+html.dark {
+  --bg-app: #090d16;
+  --bg-card: #111827;
+  --bg-subtle: #1f2937;
+  --border-subtle: #2d3748;
+  --text-main: #f9fafb;
+  --text-secondary: #cbd5e1;
+  --text-muted: #9ca3af;
+  --accent-brand: #6366f1;
+  --accent-brand-hover: #818cf8;
+  --accent-brand-light: #1e1b4b;
+  --accent-brand-text: #a5b4fc;
+}
+
+html.cappuccino {
+  --bg-app: #f5efe6;
+  --bg-card: #fdfbf7;
+  --bg-subtle: #ebd9cc;
+  --border-subtle: #d7c4b7;
+  --text-main: #3d2b1f;
+  --text-secondary: #5c4033;
+  --text-muted: #7d6756;
+  --accent-brand: #8b5a2b;
+  --accent-brand-hover: #6f4e37;
+  --accent-brand-light: #f0e6dd;
+  --accent-brand-text: #6f4e37;
+}
+
+body {
+  background-color: var(--bg-app);
+  color: var(--text-main);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-subtle);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-subtle);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+.tabular-numbers {
+  font-variant-numeric: tabular-nums;
+}
+
+
+/* ----------------------------------------------------
+   AI Interviewer Circular Visualizer Animations
+   ---------------------------------------------------- */
+@keyframes ai-pulse-glow {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.85;
+    filter: drop-shadow(0 0 15px rgba(56, 189, 248, 0.4)) drop-shadow(0 0 30px rgba(168, 85, 247, 0.3));
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+    filter: drop-shadow(0 0 25px rgba(56, 189, 248, 0.7)) drop-shadow(0 0 45px rgba(168, 85, 247, 0.55));
+  }
+}
+
+@keyframes ai-rotate-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes ai-rotate-reverse {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes ai-sound-bar {
+  0%, 100% {
+    transform: scaleY(0.25);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes ai-wave-arc-1 {
+  0%, 100% {
+    opacity: 0.45;
+    stroke-width: 2.5px;
+  }
+  50% {
+    opacity: 1;
+    stroke-width: 4.5px;
+  }
+}
+
+@keyframes ai-wave-arc-2 {
+  0%, 100% {
+    opacity: 0.35;
+    stroke-width: 2px;
+  }
+  50% {
+    opacity: 0.95;
+    stroke-width: 4px;
+  }
+}
+
+@keyframes ai-wave-arc-3 {
+  0%, 100% {
+    opacity: 0.25;
+    stroke-width: 2px;
+  }
+  50% {
+    opacity: 0.85;
+    stroke-width: 3.5px;
+  }
+}
+
+@keyframes ai-wave-arc-4 {
+  0%, 100% {
+    opacity: 0.2;
+    stroke-width: 1.5px;
+  }
+  50% {
+    opacity: 0.75;
+    stroke-width: 3px;
+  }
+}
+
+@keyframes ai-breathe {
+  0%, 100% {
+    opacity: 0.55;
+    transform: scale(0.98);
+  }
+  50% {
+    opacity: 0.88;
+    transform: scale(1.02);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ai-animate-pulse,
+  .ai-animate-rotate,
+  .ai-animate-rotate-rev,
+  .ai-animate-bar,
+  .ai-animate-breathe,
+  .ai-wave-anim-1,
+  .ai-wave-anim-2,
+  .ai-wave-anim-3,
+  .ai-wave-anim-4 {
+    animation: none !important;
+    transition: none !important;
+  }
+}

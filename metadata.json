@@ -1,0 +1,6 @@
+{
+  "name": "PlaceMate AI",
+  "description": "AI Placement and Recruitment Management Agent for VFSTR Hackathon 2.0 Problem Statement 16. Empowering VFSTR students, recruiters, and placement officers (CDC) with intelligent matching, ATS resume analysis, and real-time copilot assistance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
